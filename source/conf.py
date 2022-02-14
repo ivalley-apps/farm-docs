@@ -53,3 +53,12 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+
+#html_logo = u'dropwizard-logo.svg'
+
+extlinks = {
+  'issue': ('https://github.com/ivalley-apps/farm/issues/%s', 'issue #'),
+  'pr': ('https://github.com/ivalley-apps/farm/pull/%s', 'PR #'),
+  'ghuser': ('https://github.com/%s', '')
+}

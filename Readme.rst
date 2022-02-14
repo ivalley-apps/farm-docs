@@ -13,3 +13,7 @@ Theme
      pip install sphinx-rtd-theme
      html_theme = "sphinx_rtd_theme"
      
+Deployed Version
+----------------
+
+ https://www.ivalley.app/docs/
