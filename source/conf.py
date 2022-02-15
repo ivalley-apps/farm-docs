@@ -55,10 +55,12 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 extensions = ['sphinx.ext.extlinks']
+#extensions = ['sphinx.ext.autosectionlabel']
 #html_logo = u'dropwizard-logo.svg'
 
 extlinks = {
   'issue': ('https://github.com/ivalley-apps/farm/issues/%s', 'issue #'),
   'pr': ('https://github.com/ivalley-apps/farm/pull/%s', 'PR #'),
-  'ghuser': ('https://github.com/%s', '')
+  'ghuser': ('https://github.com/%s', ''),
+  'grepo': ('https://github.com/%s', '')
 }
